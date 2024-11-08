@@ -1,5 +1,11 @@
+/* #bg-container{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+
 .main-container-login{
-   background-color: white;
+
     display: flex;
     justify-content: center;
     flex-direction: column;

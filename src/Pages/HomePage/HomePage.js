@@ -7,23 +7,23 @@ function HomePage() {
   var womenList= [
     {
     productImg:'Women Watch',
-    productName:'Product 1',
-    ProductDesc:"This is a list of women's products.",
-    productPrice:'$500'
+    productName:'Anne Klein Womens Genuine Diamond Dial Bangle Watch',
+    ProductDesc:"Mineral crystal lens Light rose gold-tone dial with genuine diamond at rose gold-tone hands and markers Rose gold-tone open bangle",
+    productPrice:'30 $'
 
   },
   {
     productImg:'Women Watch',
-    productName:'Product 2',
-    ProductDesc:"This is a list of women's products.",
-    productPrice:'$300'
+    productName:'Anne Klein Womens Genuine Diamond Dial Bracelet Watch',
+    ProductDesc:"Slightly domed wall-to-wall mineral crystal lens Green sunray dial with genuine diamond at rose gold-tone hands and markers Rose gold-tone",
+    productPrice:'40 $'
 
   },
   {
     productImg:'Women Watch',
-    productName:'Product 3',
-    ProductDesc:"This is a list of women's products.",
-    productPrice:'$30'
+    productName:'Leather Strap Watch',
+    ProductDesc:"Round silver-tone watch with mm metal case and mineral dial window Japanese quartz movement with analog display Featuring hinged lugs",
+    productPrice:'400 $'
 
   },
   ]
@@ -88,14 +88,16 @@ function HomePage() {
            (selectedList=== 'pakistan' && pakistanList) )
            .map((val)=>{
              return (
-              <Card style={{ width: '18rem' }}>
-              {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-              <Card.Body>
+              <Card style={{ width: '24rem', margin:'40px', border:'none'}}>
+              <Card.Img variant="top" src="holder.js/100px180"/>
+              <Card.Body style={{textAlign:'center'}}>
                 <Card.Title>{val.productName}</Card.Title>
                 <Card.Text>
                     {val.ProductDesc}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+               <Card.Text className=''style={{fontSize:'20px', fontWeight:'600', color:'brown'}}>
+                {val.productPrice}
+               </Card.Text>
               </Card.Body>
             </Card>
              )
