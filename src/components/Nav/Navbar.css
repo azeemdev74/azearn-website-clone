@@ -1,0 +1,19 @@
+/* .menuBar{
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition:max-height 2.5s ease, opacity 2.5s ease;
+    }
+    .menuBar.open{
+        max-height: 300px;
+        opacity: 1;
+        }
+             */
+
+#list strong{
+    cursor: pointer;
+}
+ 
+#account-btn{
+    cursor: pointer;
+}

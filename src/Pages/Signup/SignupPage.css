@@ -1,0 +1,94 @@
+
+.main-container-signup{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    padding: 55px 60px 50px 50px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+.slogan-text{
+    text-align: center;
+    color: #646070;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.inputs label{
+    display: block;
+    font-size: 19px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.inputs input{
+    border: 1px solid #c9c9c9;
+    width: 91.5%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+
+}
+.selector label{
+    display: block;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 7px;
+   
+}
+
+.select{
+    background-color: transparent;
+    height: 42px;
+    line-height: 40px;
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+.select option:focus{
+    font-weight: 500 ;
+}
+.footerform{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.footerform p{
+    display: inline;
+    font-size: 17px;
+    color: #646070;
+   
+}
+.footerform p a{
+    color: #fd8f5f;
+    text-decoration: none;
+}
+
+.footerform button{
+    background-color: #fd8f5f;
+    height: 60px;
+    padding: 10px 43px;
+    border: 0px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    font: 1em sans-serif;
+}
