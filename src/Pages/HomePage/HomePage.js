@@ -82,13 +82,13 @@ function HomePage() {
             </div>
             <div><hr/></div>
             {/* items */}
-            <Row className='d-flex grid grid-col-3 m-5'>
+            <Row className='' style={{}} >
            {((selectedList=== 'women' && womenList)||
            (selectedList=== 'mobile' && MobileList) || 
            (selectedList=== 'pakistan' && pakistanList) )
            .map((val)=>{
              return (
-              <Card style={{ width: '24rem', margin:'40px', border:'none'}}>
+              <Card className='d-flex' style={{ width: '24rem', border:'none'}}>
               <Card.Img variant="top" src="holder.js/100px180"/>
               <Card.Body style={{textAlign:'center'}}>
                 <Card.Title>{val.productName}</Card.Title>

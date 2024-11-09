@@ -1,16 +1,19 @@
-/* #bg-container{
-    background-image: url("bg.jpg");
+#bg-container{
+    background-color: blueviolet;
+    /* background-image: url("bg.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
-} */
+    background-size:cover; */
+}
 
 .main-container-login{
-
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 40%;
     padding: 55px 60px 50px 50px;
+    border-radius: 12px;
+    box-shadow: 2px #646070;
 }
 
 .heading{
