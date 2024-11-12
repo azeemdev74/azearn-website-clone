@@ -1,11 +1,12 @@
-#bg-container{
-    background-color: blueviolet;
-    /* background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size:cover; */
+.bg-container{
+   
+   filter: blur(5px);
+ 
+   
+   
 }
-
 .main-container-login{
+ 
     background-color: white;
     display: flex;
     justify-content: center;
@@ -14,6 +15,7 @@
     padding: 55px 60px 50px 50px;
     border-radius: 12px;
     box-shadow: 2px #646070;
+    
 }
 
 .heading{
