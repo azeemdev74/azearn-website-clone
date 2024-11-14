@@ -8,7 +8,7 @@ function SignupPage() {
     let navigate=useNavigate()
     
   return (
-    <div className='d-flex justify-content-center align-items-center bg-info'style={{height:'100vh'}}>
+   
         <div className='main-container-signup'>
         <div className='heading'><span>Sign Up</span></div>
         <div className='slogan-text'><p>Create your account to get full access</p></div>
@@ -33,7 +33,7 @@ function SignupPage() {
             <button onClick={()=>navigate('/home')}>Sign Up</button>
         </div>
     </div>
-    </div>
+    
   )
 }
 

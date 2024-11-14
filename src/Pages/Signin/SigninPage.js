@@ -6,7 +6,7 @@ import InputField from '../../components/InputField/InputField'
 function SigninPage() {
   let navigate=useNavigate()
   return (
-      <div className='main-container-login'>
+      <div className='main-container-login px-5'>
     <div className='heading'><span>Login</span></div>
     <div className='slogan-text'><p>Enter Login details to get access</p></div>
     {/* Inputs text field */}
@@ -16,12 +16,12 @@ function SigninPage() {
         
     </div>
     {/* forgot password */}
-    <div className='selector2'>
-      <div>
+    <div className='selector2 row'>
+      <div className='col-sm-6'>
       <input type='checkbox'/>
       <label>Keep me logged in</label>
       </div>
-       <div className='forgot-pass'><a href='ab.com'>Forgot Password?</a></div>
+       <div className='forgot-pass col-sm-6 d-flex justify-content-start justify-content-sm-end '><a href='ab.com'>Forgot Password?</a></div>
     </div>
     {/* signup button */}
     <div className='footerform'> 

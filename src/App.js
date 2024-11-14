@@ -11,14 +11,15 @@ function App() {
   const location=useLocation()
   return (
     <div className="App">
-      <Auth/>
-
-  {/* {(location.pathname!=='/' && location.pathname!=='/signup') &&  <MyNavBar/>}
+   
+  {(location.pathname!=='/' && location.pathname!=='/signup') &&  <MyNavBar/>}
       <Routes>
+        <Route element={<Auth/>}> 
         <Route path="/" element={<SigninPage/>}/>
         <Route path="/signup" element={<SignupPage/>}/>
+        </Route>
         <Route path="/home" element={<HomePage/>}/>
-      </Routes> */}
+      </Routes>
      
     </div>
   );

@@ -6,7 +6,9 @@
     flex-direction: column;
     width: 40%;
     margin: auto;
-    padding: 55px 60px 50px 50px;
+    padding: 25px 60px;
+    border-radius: 20px;
+    
 }
 
 .heading{
@@ -33,14 +35,7 @@
     font-weight: 500;
 
 }
-.inputs input{
-    border: 1px solid #c9c9c9;
-    width: 91.5%;
-    height: 50px;
-    margin-bottom: 20px;
-    padding: 0 25px;
 
-}
 .selector label{
     display: block;
     font-size: 17px;
@@ -91,4 +86,11 @@
     text-transform: capitalize;
     cursor: pointer;
     font: 1em sans-serif;
+}
+
+
+@media (max-width: 900px) {
+    .main-container-signup{
+        width: 50%;
+    }
 }

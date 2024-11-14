@@ -1,14 +1,13 @@
 import React from 'react'
 import './Auth.css'
-import SigninPage from '../../Pages/Signin/SigninPage'
+import { Outlet } from 'react-router-dom'
 
 const Auth = () => {
   return (
-  <div className='auth-container'>
+  <div className='auth-container '>
 <img className='auth-Img' src='bg.jpg'/>
-
-<div className='auth-subContainer'>
-<SigninPage/>
+<div className='auth-subContainer '>
+ <Outlet/>
 </div>
   </div>
   )

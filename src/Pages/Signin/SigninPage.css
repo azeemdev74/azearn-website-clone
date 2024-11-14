@@ -1,6 +1,5 @@
 
 .main-container-login{
- 
     background-color: white;
     display: flex;
     justify-content: center;
@@ -38,14 +37,7 @@
 
 }
 
-.authInput{
-    border: 1px solid #c9c9c9;
-    /* width: 91.5; */
-    height: 50px;
-    margin-bottom: 20px;
-    padding: 0 25px;
 
-}
 
 .selector label{
     display: block;
@@ -102,7 +94,7 @@
     font: 1em sans-serif;
 }
 
-.selector2{
+/* .selector2{
     display: flex;
     justify-content: space-between;
     border-top: #fd8f5f;
@@ -110,11 +102,26 @@
 
 .selector2 div{
     display: inline;
-}
+} */
 
 .forgot-pass a{
     font-size: 14px;
     justify-content: end;
     color: #fd8f5f;
     text-decoration: none;
+}
+@media (max-width:1035px) {
+    .main-container-login{
+        width: 50%;
+    }
+}
+@media (max-width:830px) {
+    .main-container-login{
+        width: 60%;
+    }
+}
+@media (max-width:690px) {
+    .main-container-login{
+        width: 75%;
+    }
 }
