@@ -6,7 +6,6 @@ import InputField from '../../components/InputField/InputField'
 function SigninPage() {
   let navigate=useNavigate()
   return (
-    <div className='bg-container d-flex justify-content-center align-items-center' style={{height:'100vh', backgroundImage:"url('bg.jpg')", backgroundPosition:'center', backgroundSize:'cover'}}>
       <div className='main-container-login'>
     <div className='heading'><span>Login</span></div>
     <div className='slogan-text'><p>Enter Login details to get access</p></div>
@@ -30,7 +29,7 @@ function SigninPage() {
         <button onClick={()=>navigate('/home')}>Login</button>
     </div>
 </div>
-    </div>
+  
   )
 }
 

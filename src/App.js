@@ -5,18 +5,20 @@ import SigninPage from './Pages/Signin/SigninPage';
 import SignupPage from './Pages/Signup/SignupPage';
 import HomePage from "./Pages/HomePage/HomePage";
 import MyNavBar from "./components/Nav/NavBar";
+import Auth from "./components/Auth/Auth";
 
 function App() {
   const location=useLocation()
   return (
     <div className="App">
+      <Auth/>
 
-  {(location.pathname!=='/' && location.pathname!=='/signup') &&  <MyNavBar/>}
+  {/* {(location.pathname!=='/' && location.pathname!=='/signup') &&  <MyNavBar/>}
       <Routes>
         <Route path="/" element={<SigninPage/>}/>
         <Route path="/signup" element={<SignupPage/>}/>
         <Route path="/home" element={<HomePage/>}/>
-      </Routes>
+      </Routes> */}
      
     </div>
   );
