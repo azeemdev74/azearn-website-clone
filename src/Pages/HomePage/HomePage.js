@@ -60,13 +60,13 @@ function HomePage() {
   },
   ]
   return (
-    <div className='home-container'>
+    <div className='home-container container'>
           <div className='text-center my-5 d-flex flex-column align-items-center'>
             <h4 className='fw-bold'>Best watches & mobiles in UK</h4>
             <p className='fs-5 w-50 text-center px-2' style={{color:'#7F85A8' , lineHeight:'1.6', fontWeight:'400',}}>Best women's gift shop in uk if you are searching. We have multiple collection for gift's like watches for women and mans. We are providing best quality of watches and mobiles.</p>
           </div>
           <div>
-            <div className='d-flex justify-content-center' style={{gap:'40px'}}>
+            <div className='listBtn d-flex justify-content-center' style={{gap:'40px'}}>
               <span style={{cursor:'pointer'}}
               onClick={()=>setselectedList("women")}
               className={!selectedList==='women' && 'active'}
@@ -82,7 +82,7 @@ function HomePage() {
             </div>
             <div><hr/></div>
             {/* items */}
-            <Row className='' style={{}} >
+            <Row className='d-flex justify-content-center' >
            {((selectedList=== 'women' && womenList)||
            (selectedList=== 'mobile' && MobileList) || 
            (selectedList=== 'pakistan' && pakistanList) )

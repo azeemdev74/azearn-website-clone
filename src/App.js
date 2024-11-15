@@ -6,19 +6,22 @@ import SignupPage from './Pages/Signup/SignupPage';
 import HomePage from "./Pages/HomePage/HomePage";
 import MyNavBar from "./components/Nav/NavBar";
 import Auth from "./components/Auth/Auth";
+import CreateLisingPage from "./Pages/Create Listing/CreateLisingPage";
+import { useEffect } from "react";
 
 function App() {
   const location=useLocation()
   return (
     <div className="App">
    
-  {(location.pathname!=='/' && location.pathname!=='/signup') &&  <MyNavBar/>}
+  {location.pathname!=='/' && location.pathname!=='/signup' && location.pathname!=='/createlisting' && <MyNavBar/>}
       <Routes>
         <Route element={<Auth/>}> 
         <Route path="/" element={<SigninPage/>}/>
         <Route path="/signup" element={<SignupPage/>}/>
         </Route>
         <Route path="/home" element={<HomePage/>}/>
+        <Route path="/createlisting" element={<CreateLisingPage/>}/>
       </Routes>
      
     </div>

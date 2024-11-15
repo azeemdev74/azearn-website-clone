@@ -10,10 +10,17 @@
         }
              */
 
-#list strong{
-    cursor: pointer;
-}
+
  
 #account-btn{
     cursor: pointer;
+}
+
+.navitems:hover{
+    cursor: pointer;
+    color: #FD8F5F;
+}
+.navBtn:hover{
+    cursor: pointer;
+    color: #FD8F5F;
 }

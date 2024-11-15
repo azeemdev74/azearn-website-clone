@@ -9,7 +9,7 @@ function SignupPage() {
     
   return (
    
-        <div className='main-container-signup'>
+        <div className='main-container-signup col-12 col-lg-5 col-md-8 col-sm-8'>
         <div className='heading'><span>Sign Up</span></div>
         <div className='slogan-text'><p>Create your account to get full access</p></div>
         {/* Inputs text field */}
