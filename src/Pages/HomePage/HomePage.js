@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from "react";
 import './HomePage.css'
 import { Button, Card, Row } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
 function HomePage() {
   const [selectedList, setselectedList] = useState("women");
   var womenList= [
@@ -103,8 +104,9 @@ function HomePage() {
              )
            })}    
           </Row>
-        
+          <Footer/>
             </div>
+       
 
     </div>
   )
