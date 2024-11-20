@@ -104,9 +104,9 @@ function HomePage() {
              )
            })}    
           </Row>
-          <Footer/>
+         
             </div>
-       
+        
 
     </div>
   )

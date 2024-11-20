@@ -8,6 +8,7 @@ import MyNavBar from "./components/Nav/NavBar";
 import Auth from "./components/Auth/Auth";
 import CreateLisingPage from "./Pages/Create Listing/CreateLisingPage";
 import { useEffect } from "react";
+import Footer from "./Pages/Footer/Footer";
 
 function App() {
   const location=useLocation()
@@ -23,7 +24,7 @@ function App() {
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/createlisting" element={<CreateLisingPage/>}/>
       </Routes>
-     
+      {location.pathname==='/home'  && <Footer/>}
     </div>
   );
 }
